@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marcie Tech Tips</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Montserrat', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f8f8f8;
+		}
+		header {
+			background-color: #ff7f50;
+			color: white;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+		}
+		header h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+		header nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+		}
+		header nav ul li {
+			margin: 0 10px;
+		}
+		header nav ul li a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+			transition: all 0.3s ease;
+		}
+		header nav ul li:last-child a {
+			border: 1px solid white;
+			border-radius: 5px;
+			padding: 8px 10px;
+		}
+		header nav ul li a:hover {
+			color: #ecf0f1;
+		}
+		main {
+			margin: 50px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		section {
+			background-color: white;
+			padding: 20px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+			width: 10%;
+			border-radius: 5px;
+		}
+		section:first-child {
+			background-color: white;
+			padding: 5px;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+			width: 10%;
+			border-radius: 5px;
+		}
+		section h2 {
+			font-size: 24px;
+			margin: 0;
+			margin-bottom: 10px;
+		}
+		section p {
+			font-size: 16px;
+			line-height: 1.4;
+			margin: 0;
+		}
+		footer {
+			background-color: #34495e;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			font-size: 14px;
+			box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+		}
+		footer p {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Tech Tips</h1>
+		<nav>
+			<ul>
+				<li><a href="os.html">OS's</a></li>
+				<li><a href="browsers.html">Browsers</a></li>
+				<li><a href="emulators.html">Emulators</a></li>
+				<li><a href="games.html">Games</a></li>
+				<li><a href="android.html">Android</a></li>
+				<li><a href="terminal.html">Terminal</a></li>
+				<li><a href="file-managers.html">File Managers</a></li>
+				<li><a href="vpn.html">VPN's</a></li>
+				<li><a href="tech-tips.html">Terug</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Wat is een emulator?</h2>
+			<p>Een emulator is iets wat ander hardware na kan doen. Dit is handig als je het gewenste hardware niet hebt of je huidige niet wilt bombarderen (niet te verwarren met safouan). Je kan ook andere consoles nadoen zoals de Nintendo Wii (U), Switch, Playstation, Xbox etc. Je hoeft hier niet voor te betalen (net zoals (bijna) alles hiero) en is redelijk eenvoudig te doen. Voor games moet je wel eerst een rom downloaden, maar linkje zet ik er gewoon bij.</p>
+		</section>
+		<section>
+		<h2><a href="https://www.retroarch.com/">RetroArch</a></h2>
+		<p>RetroArch is een alles in 1 emulator. Het kan bijna elke (op switch na dan) Nintendo console nadoen en een paar extra zoals Playstation 1/2.  Retroarch gebruikt cores, wat gewoon kleine emulators zijn voor retroarch. Deze kunnen ook los gedownload worden: <a href="https://dolphin-emu.org/">dolphin</a>, <a href="https://mgba.io/">m-gba</a>, <a href="https://desmume.org/">desmume</a>, <a href="https://melonds.kuribo64.net/">melonds</a>, <a href="https://citra-emu.org/">citra</a>, <a href="https://www.snes9x.com/">snes9x</a> of <a href="https://github.com/bsnes-emu/bsnes">bsnes</a>... Om een core te installeren moet je naar main menu > load core > download a core > jou core naar keuze. Als je het via steam gedownload hebt, moet je het als een dlc downloaden. Ik gebruik altijd de installer (64bit) van de website, maar dat is je eigen keuze. Retroarch kan ook op android en veel meer OS's. Roms download je van <a href="https://www.emulatorgames.net/">Emulator Games</a></p>
+		</section>
+		<section>
+		<h2><a href="https://yuzu-emu.org/">Yuzu</a>, <a href="https://ryujinx.org/">Ryujinx</a> en <a href="https://skyline-emu.one/">Skyline</a></h2>
+		<p>Dit zijn Nintendo Switch emulators. Ryujinx heeft een LDN build om online te spelen en yuzu heeft het ingebouwd. Ik vind Ryujinx persoonlijk fijner, maar Yuzu is soms wat sneller. Voor keys en firmware (alleen voor Ryujinx) kan je <a href="https://github.com/Ecks1337/RyuSAK">Ryusak</a> gebruiken. Roms downloaden doe je op <a href="https://nsw2u.com/">nsw2u</a> of <a href="https://www.ziperto.com/">ziperto.</a> Firmware voor Yuzu kan je downloaden op <a href="https://darthsternie.net/switch-firmwares/">Darthsternie.</a></p>
+		</section>
+		<section>
+		<h2><a href="https://bluemaxima.org/flashpoint/">BlueMaxima's Flashpoint</a></h2>
+		<p>BlueMaxima's Flashpoint is een emulator voor oude <a href="https://www.adobe.com/products/flashplayer/end-of-life.html">Adobe Flash</a> games, denk aan <a href="https://spele.nl/">spele.nl</a>. Deze games zijn opgeslagen en kan je gewoon weer spelen!</p>
+		</section>
+		<section>
+		<h2><a href="https://www.virtualbox.org/">Virtualbox</a> en <a href="https://www.qemu.org/">QEMU</a></h2>
+		<p>Virtualbox en QEMU zijn virtualization programma's en doen een compleet andere pc (personal computer) na. QEMU is handiger voor linux met virt-manager (sudo apt install virt-manager) en virtualbox handiger voor windows. Je kan elke gewenste OS installeren, bijvoorbeeld Windows of Linux. Het enige wat je nodig hebt is de ISO file!</p>
+		</section>
+		<section>
+		<h2><a href="https://cemu.info/">Cemu</a></h2>
+		<p>Cemu is een nintendo wii u emulator (dus niet wii). Sommige games, zoals zelda breath of the wild, werken veel beter op Cemu. Voor controller support heb je <a href="https://cemuhook.sshnuke.net/">cemuhook</a> nodig. Voor roms heb je <a href="https://github.com/FailedShack/USBHelperInstaller/releases">Wii U USB Helper</a> nodig. Pas wel op, want wii u usb helper wordt niet meer gemaakt en is een oude versie. Echter werkt het wel nogsteeds zoals bedoelt. Je hebt ook <a href="https://titlekeys.ovh/">title keys</a> nodig voor Wii USB Helper.</p>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
+</body>
+</html>
