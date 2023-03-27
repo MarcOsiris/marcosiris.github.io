@@ -86,6 +86,53 @@
 		footer p {
 			margin: 0;
 		}
+		 /* Media queries */
+      @media screen and (max-width: 768px) {
+        header {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        header h1 {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+
+        header nav ul {
+          margin-top: 20px;
+          flex-direction: column;
+          text-align: center;
+        }
+
+        header nav ul li {
+          margin: 10px 0;
+        }
+
+        main {
+          margin: 30px;
+        }
+
+        section {
+          width: 100%;
+        }
+
+        footer {
+          position: static;
+          margin-top: 30px;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        main {
+          flex-direction:
+            column;
+          margin: 20px;
+        }
+
+        section {
+          width: 100%;
+          margin-bottom: 20px;
+        }
 	</style>
 </head>
 <body>
