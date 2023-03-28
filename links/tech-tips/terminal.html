@@ -58,7 +58,7 @@
 			background-color: white;
 			padding: 20px;
 			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-			width: 30%;
+			width: 15%;
 			border-radius: 5px;
 		}
 		section h2 {
@@ -140,11 +140,17 @@
 		<h1>Tech Tips</h1>
 		<nav>
 			<ul>
+				<li><a href="algemeen.html">Algemeen</a></li>
+				<li><a href="films.html">Films</a></li>
+				<li><a href="muziek.html">Muziek</a></li>
+				<li><a href="personaliseren.html">Personaliseren</a></li>
+				<li><a href="programma.html">Programma's</a></li>
+				<li><a href="android.html">Android Apps</a></li>
+				<li><a href="downloaden.html">Downloaden</a></li>
 				<li><a href="os.html">OS's</a></li>
 				<li><a href="browsers.html">Browsers</a></li>
 				<li><a href="emulators.html">Emulators</a></li>
 				<li><a href="games.html">Games</a></li>
-				<li><a href="android.html">Android</a></li>
 				<li><a href="terminal.html">Terminal</a></li>
 				<li><a href="file-managers.html">File Managers</a></li>
 				<li><a href="vpn.html">VPN's</a></li>
@@ -154,16 +160,31 @@
 	</header>
 	<main>
 		<section>
-			<h2>Hoe weet ik of het wel betrouwbaar is?</h2>
-			<p>Bijna elk programma hier is FOSS (Free and Open Source Software) en je kan dus de in de code (meestal op github of gitlab) controleren of het werkelijk betrouwbaar is. Je kan het ook opzoeken op reddit of aan mij.</p>
+			<h2>Terminal</h2>
+			<p>Hier ga ik het hebben over commands en verschillende terminals voor Windows en Linux. Wees niet geïntimideerd door de terminal. Als je een beetje weet wat je doet is het niet zo moeilijk.</p>
 		</section>
 		<section>
-		<h2>Waar zie ik de programma's?</h2>
-		<p>Rechtboven bij het oranje vlak kan je alle kopjes zien. Elk programma staat bij het kopje waar het programma hoort.</p>
+		<h3>Windows debloaten</h3>
+		<p>Windows debloated kan met het volgende command (via windows powershell + moet als admin):</p>
+		<p>irm christitus.com/win | iex</p>
+		<p>&nbsp;</p>
+		<p>Dit is een temporary file en verandert alleen dingen als je dat wilt. Dus wel oppassen met wat je aanklikt!</p>
 		</section>
 		<section>
-		<h2>Kan ik nog terug?</h2>
-		<p>Natuurlijk kan je dat: <a href="../home/home.html">terug naar start!</a></p>
+		<h3><a href="https://github.com/microsoft/terminal">Windows Terminal</a></h3>
+		<p>De Windows Terminal wordt al automatisch geïnstalleerd op elke Windows pc. Hiermee bedoel ik niet CMD of PowerShell. In Windows Terminal is een "terminal emulator" en je kunt kiezen tussen bijvoorbeeld <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd">CMD</a> of <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3">PowerShell</a>. PowerShell heeft veel meer opties en is in mijn optiek een betere optie.</p>
+		</section>
+		<section>
+		<h3><a href="https://termux.dev/en/">Termux</a></h3>
+		<p>Termux is een terminal emulator voor android.</p>
+		</section>
+		<section>
+		<h3><a href="https://scoop.sh/">Scoop</a>, <a href="https://chocolatey.org/">Chocolatey</a> en <a href="https://github.com/microsoft/winget-cli">Winget</a></h3>
+		<p>Scoop, Chocolatey en Winget zijn commands voor Windows. Ze kunnen allemaal packages ("programma's") installeren/verwijderen en updaten.</p>
+		<p>&nbsp;</p>
+		<p>De commands van Chocolatey zijn: choco install "app naar keuze" (om een app te installeren), choco upgrade all (op te updaten) en choco uninstall "app naar keuze" (om een app te deinstalleren).</p>
+		<p>&nbsp;</p>
+		<p>Commands zijn: scoop install "app naar keuze" etc. Winget is precies hetzelfde: winget install "app naar keuze", winget upgrade --all etc.</p>
 		</section>
 	</main>
 	<footer>
