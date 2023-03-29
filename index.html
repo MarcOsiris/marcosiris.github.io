@@ -1,22 +1,166 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Marcie Tech Tips</title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Marcie Tech Tips</h1>
-    <img src="images/MTT.png" alt="MTT: Marcie Tech Tips.">
+<head>
+	<title>Marcie Tech Tips</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Montserrat', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f8f8f8;
+		}
+		header {
+			background-color: #1abc9c;
+			color: white;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+		}
+		header h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+		header nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+		}
+		header nav ul li {
+			margin: 0 10px;
+		}
+		header nav ul li a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+			transition: all 0.3s ease;
+		}
+		header nav ul li a:hover {
+			color: #ecf0f1;
+		}
+		main {
+			margin: 50px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		section {
+			background-color: white;
+			padding: 20px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+			width: 29%;
+			border-radius: 5px;
+		}
+		section h2 {
+			font-size: 24px;
+			margin: 0;
+			margin-bottom: 10px;
+		}
+		section p {
+			font-size: 16px;
+			line-height: 1.4;
+			margin: 0;
+		}
+		footer {
+			background-color: #34495e;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			font-size: 14px;
+			box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+			bottom: 0;
+			left: 0;
+			position: fixed;
+			width: 100%;
+		}
+		footer p {
+			margin: 0;
+		}
+		 /* Media queries */
+      @media screen and (max-width: 768px) {
+        header {
+          flex-direction: column;
+          text-align: center;
+        }
 
-    <p>Welkom bij Marcie Tech Tips!
-	Dit is een vervanging van #marcie-tips op discord, zie #techsupport.
-	</p>
+        header h1 {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
 
-    <p>Dit zijn vooral tips van programma's en apps. Deze zijn als suggesties bedoelt en zijn mijn mening, dus niet haten als je het er niet mee eens bent.
-Bijna elk programma is FOSS (Free and Open Source Software), dit betekent dat je naar de code kan kijken (dit gebeurt meestal op github of gitlab). FOSS is gratis en zeer betrouwbaar, omdat je alles kan zien wat het doet en installeert. Chrome, Discord, Windows etc. zijn closed source, dus je kan niet naar de code kijken. Dit kan impact hebben op je privacy en security, doordat ze bijvoorbeeld je gegevens door verkopen voor geld. FOSS heeft dit probleem niet. Ik ga ook praten over forks, dit zijn programma's die de code van een ander programma gebruikt hebben en er op zijn gebaseert. Security is hoe goed je beveiligt bent, meestal gebeurt dit met een firewall of iets dergelijks. Dit is iets ANDERS dan privacy, je weet vast wel wat privacy is.</p>
+        header nav ul {
+          margin-top: 20px;
+          flex-direction: column;
+          text-align: center;
+        }
 
-    <p>Ga naar <a href="links/home/home.html">deze</a> website voor alle tech tips!</p>
-  </body>
+        header nav ul li {
+          margin: 10px 0;
+        }
+
+        main {
+          margin: 30px;
+        }
+
+        section {
+          width: 100%;
+        }
+
+        footer {
+          position: static;
+          margin-top: 30px;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        main {
+          flex-direction:
+            column;
+          margin: 20px;
+        }
+
+        section {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welkom bij Marcie Tech Tips!<img src="images/MTT.png"></h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="links/home/about.html">About</a></li>
+				<li><a href="links/home/contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Over deze website</h2>
+			<p>Welkom bij Marcie Tech Tips!
+			<p>&nbsp;</p>
+			Dit is een vervanging van #marcie-tips op discord, zie #techsupport.</p>
+			<p>&nbsp;</p>
+			<p>Dit zijn vooral tips van programma's en apps. Deze zijn als suggesties bedoelt en zijn mijn mening, dus niet haten als je het er niet mee eens bent. Bijna elk programma is FOSS (Free and Open Source Software), dit betekent dat je naar de code kan kijken (dit gebeurt meestal op github of gitlab). FOSS is gratis en zeer betrouwbaar, omdat je alles kan zien wat het doet en installeert. Chrome, Discord, Windows etc. zijn closed source, dus je kan niet naar de code kijken. Dit kan impact hebben op je privacy en security, doordat ze bijvoorbeeld je gegevens door verkopen voor geld. FOSS heeft dit probleem niet. Ik ga ook praten over forks, dit zijn programma's die de code van een ander programma gebruikt hebben en er op zijn gebaseert. Security is hoe goed je beveiligt bent, meestal gebeurt dit met een firewall of iets dergelijks. Dit is iets ANDERS dan privacy, je weet vast wel wat privacy is.</p>
+		</section>
+		<section>
+			<h2>Waarom ben ik hier aan begonnen?</h2>
+			<p>Ik wilde graag mijn kennis delen met andere mensen, zodat ook zij meer te weten komen over programma's en computers in het algemeen. Ik had dit eerst op Discord staan, maar ik kon daar heel weinig mee. Daarom heb ik besloten om een eigen website te maken hiervoor!</p>
+		</section>
+		<section>
+			<h2>Tech tips</h2>
+			<p><a href="../tech-tips/tech-tips.html">Hier staan alle tech tips.</a></p>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
+</body>
 </html>
