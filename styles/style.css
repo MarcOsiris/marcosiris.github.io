@@ -76,10 +76,7 @@
 			text-align: center; /* text in het midden */
 			font-size: 14px; /* letter grote */
 			width: 100%; /* breedte hele scherm */
-			position: fixed;
-			bottom: 0;
-			left: 0;
-			width: 100%;
+			position: flex;
 		} /* footer */
 			footer p {
 				margin: 0%;
