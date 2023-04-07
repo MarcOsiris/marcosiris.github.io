@@ -20,7 +20,7 @@
 		  header {
 			  background-color: var(--bg-hd); /* achtergrond */
 			  color: var(--txt-hd); /* kleur letters */
-			  display: flex; /* blijft boven aan */
+			  display: absolute; /* blijft boven aan */
 			  padding: 1%; /* geen gay text */
 			  align-items: center; /* text blijf in het midden */
 		  } /* balk boven aan */
