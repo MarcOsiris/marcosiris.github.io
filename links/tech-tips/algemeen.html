@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marcie Tech Tips</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" type='text/css'>
+	<link href="../../styles/style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="../../images/MTT.png">
+</head>
+<body>
+	<header>
+		<h1>Tech Tips</h1>
+		<nav>
+			<ul>
+				<li><a href="algemeen.html">Algemeen</a></li>
+				<li><a href="webshops.html">Webshops</a></li>
+				<li><a href="films.html">Films</a></li>
+				<li><a href="muziek.html">Muziek</a></li>
+				<li><a href="personaliseren.html">Personaliseren</a></li>
+				<li><a href="productiviteit.html">Productiviteit</a></li>
+				<li><a href="android.html">Android Apps</a></li>
+				<li><a href="downloaden.html">Downloaden</a></li>
+				<li><a href="os.html">OS's</a></li>
+				<li><a href="browsers.html">Browsers</a></li>
+				<li><a href="emulators.html">Emulators</a></li>
+				<li><a href="games.html">Games</a></li>
+				<li><a href="terminal.html">Terminal</a></li>
+				<li><a href="file-managers.html">File Managers</a></li>
+				<li><a href="vpn.html">VPN's</a></li>
+				<li><a href="tech-tips.html">Terug</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Algemeen</h2>
+			<p>Dit zijn algemene tips om je PC (Personal Computer) sneller en opgeruimder te maken.</p>
+		</section>
+		<section>
+			<h2>Performance boost</h2>
+			<p>Verwijder apps die je niet meer gebruikt, sluit apps af die in de achtergrond runnen, ruim je zooi op (files, downloads etc.), leer een beetje organiseren met mappies enzo, verwijder desktop icons (dit is een mening, maar ik krijg er autisme van), zet startup apps uit (dit kan in windows settings of via task manager (ctrl + shift + esc)). Gebruik alsjeblieft geen CCleaner, dit is "spyware" (zie <a href="https://www.youtube.com/watch?v=zbqlJKiENvQ">LTT</a> zijn video) en slecht voor privacy. Windows heeft ook een ingebouwde opschoner, genaamt "Disk Clean-up". Deze raad ik aan voor normaal gebruik. BleachBit is ook niet zo goede optie, omdat dit blijkbaar slecht is voor je disk en heeft veel problemen.</p>
+			<p>Veel mensen noemen dit ook wel "bloat" en het verminderen kan een enorme performance boost geven. Ook kan je je windows instellingen veranderen voor betere snelheid. Zie ook <a href="terminal.html">"Terminal"</a> voor een script om Windows te debloaten.</p>
+			<p>Ik zie veel mensen ook met meerdere anti-4russen en VPN's. Anti-4russen zijn compleet overbodig en verneuken je pc (het maakt je pc langzaam*). Windows heeft er zelfs eentje ingebouwd. 1 VPN is prima, maar meerdere kan ook tot problemen lijden.</p>
+			<p>Ook meedere games tegelijk open hebben is een erg slecht plan. 2 kan opzich nog, maar zelfs dat is sterk af te raden. Sluit de ene game af voordat je de andere gaat spelen.</p>
+			<p>In games zelfs kan je ook de settings veranderen voor betere performance. V-sync "capped" je fps tot het aantal hoeveelheid herts je monitor heeft en vermindert screen tearing. Ik heb dit persoonlijk bijna altijd uit. Fullscreen mode geeft je meer fps, maar met borderless kan je alt + tab doen. Ik vind borderless prettiger. Ook kan je de graphics een heel stuk lager zetten voor betere fps.</p>
+			<p>Daarbij kan je ook gebruik maken van <a href="https://www.msi.com/Landing/afterburner/graphics-cards">MSI Afterburner</a>. MSI Afterburner is een programma dat je een overlay geeft voor games, zodat je alles wat er gebeurt op de pc kunt zien en aanpassen. Je kan er ook mee "overclocken", maar is niet aan te raden want het kan je pc/laptop neuken. Je kan FPS, tijd, GPU en CPU % zien en nog veel meer. Verwijder als je problemen krijgt.</a></p>
+			<img src="../../images/afterburner.png" width="75">
+		</section>
+		<section>
+			<h2>Up-to-date blijven</h2>
+			<p>Zorg er ook voor dat je meuk up-to-date blijft! Dit kan via Windows updates; Microsoft Store (ja, dit staat appart van Windows updates); Winget, Chocolatey en Scoop (winget upgrade --all, choco upgrade all en scoop upgrade all) en tot slot heb je ook nog je driver updates van bijvoorbeeld je graphics card (GPU). Op AMD kan dit met het <a href="https://www.amd.com/en/support">Radeon Software</a>, Nvidia doet dit met <a href="https://www.nvidia.com/en-us/geforce/drivers/">hun eigen meuk</a> en Intel gebruikt <a href="https://www.dell.com/support/contents/nl-nl/Category/product-support/self-support-knowledgebase/software-and-downloads/support-assist">SupportAssist</a> en <a href="https://www.intel.com/content/www/us/en/support/detect.html">Intel Driver & Support Assistant</a>. Supportassist is alleen voor Dell laptops, zoals die van mij. Intel Driver & Support Assistant moet ook aanstaan bij startup, anders kan er iets mis gaan.</p>
+			<img src="../../images/amd.png" width="135">
+			<img src="../../images/nvidia.png" width="100">
+			<img src="../../images/intel.png" width="110">
+		</section>
+		<section>
+			<h2>Graphics APIs</h2>
+			<p>In emulators als Dolphin, Retroarch, Citra, Ryujinx etc. zal ik aanraden om Vulkan te gebruiken (Citra met Vulkan is nog niet uit). Vulkan is een manier om je graphics te renderen. Je hebt ook OpenGL, DirectX (11 en 12 zijn de nieuwste) etc. Vulkan is meestal de snelste en is cross platform (dit houdt in dat het op meerdere systemen te gebruiken is, zoals Linux, Android en Windows (zie <a href="os.html">"OS's"</a>)), maar DirectX is zeer zeker geen slechte keus. DirectX is alleen voor Windows. AMD heeft geen support meer voor OpenGL (nou ja, is er een aantal jaren geleden mee gestopt) en is heel langzaam. Minecraft bijvoorbeeld gebruikt wel nogsteeds OpenGL, daarom is een Nvidia graphics card vaak ook een stuk beter voor Minecraft. Voor AMD kan je op Linux spelen. Linux heeft iets genaamt Mesa en dit heeft wel support voor OpenGL. Dus Minecraft is ook een stuk sneller op Linux!🥰 </p>
+			<img src="../../images/vulkan.png" width="200">
+			<img src="../../images/opengl.png" width="150">
+			<img src="../../images/directx.png" width="170">
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
+</body>
+</html>
