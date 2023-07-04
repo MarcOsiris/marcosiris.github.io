@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://marcosiris.github.io/"><img src="https://github.com/MarcOsiris/marcosiris.github.io/blob/main/images/MTT.png" alt="MarcOsiris" width="150"></a>
+  <a href="https://marcosiris.github.io/"><img src="https://github.com/MarcOsiris/marcosiris.github.io/blob/main/images/MTT.png" alt="Osiris" width="150"></a>
   <br>
-  <b>MarcOsiris</b>
+  <b>Osiris</b>
   <br>
   <sub><sup><b>(By: Marc & Tom)</b></sup></sub>
   <br>
